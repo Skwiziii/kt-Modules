@@ -1,7 +1,7 @@
 {
   "name": "kt-Modules",
-  "version": "1.0.3",
-  "updated": "2026-10-09-23:53",
+  "version": "1.0.4",
+  "updated": "2026-10-10-00:16",
   "modules": [
     {
       "id": "autosig",
@@ -57,16 +57,17 @@
     {
       "id": "reswaga",
       "name": "reswaga",
-      "display_name": "reSwaga (Now Playing)",
+      "display_name": "reSwaga (Now Playing Card)",
       "author": "@Diezdd",
-      "description": "Интерактивная карточка играющего сейчас трека (Now Playing) для Last.fm, Spotify / Stats.fm с мультиссылками SongLink и логами разработки.",
-      "version": "1.2.7",
+      "description": "Графическая нативная карточка играющего трека (Now Playing) с атмосферным размытым фоном, прогресс-баром, таймкодами и кастомизацией пропорций (16:9, 4:3, 1:1, 21:9, 9:16). Поддерживает Last.fm и Spotify.",
+      "version": "1.2.8",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
         { "name": "now", "doc": "Текстовая карточка текущего трека с таймлайном", "usage": "" },
         { "name": "np", "doc": "Короткий алиас для команды .now", "usage": "" },
-        { "name": "npcard", "doc": "Отправить карточку текущего трека с обложкой альбома", "usage": "" },
+        { "name": "npcard", "doc": "Отправить графическую карточку трека с кастомным соотношением сторон", "usage": "[16:9|4:3|1:1|21:9|9:16]" },
+        { "name": "npformat", "doc": "Выбрать формат карточки Now Playing по умолчанию", "usage": "<16:9|4:3|1:1|21:9|9:16>" },
         { "name": "setlastfm", "doc": "Привязать аккаунт Last.fm к юзерботу", "usage": "<username> [api_key]" },
         { "name": "setstatsfm", "doc": "Привязать аккаунт Stats.fm (Spotify)", "usage": "<username>" },
         { "name": "npplatform", "doc": "Выбрать источник музыки (lastfm, spotify)", "usage": "<lastfm|spotify>" },
@@ -74,8 +75,8 @@
         { "name": "reswagalog", "doc": "Просмотр логов разработки и отладки Now Playing", "usage": "[clear]" },
         { "name": "npdebug", "doc": "Алиас для .reswagalog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 317976,
-      "sha256": "3c6adbd443dc7ac91affe8a956056aa31cc4c8e67d0eca0ad5d8527a0979d42b",
+      "size": 553264,
+      "sha256": "f60f4f76bde5938b5976a3896f6111f5e37a5b42b707b047bda38d7a468bd531",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/reswaga.so",
       "license": "Proprietary",
       "min_host_version": 12
