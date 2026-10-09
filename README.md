@@ -66,3 +66,4 @@
 ---
 
 **© 2026 @Diezdd. Разработано для Kotogram / KoteLoader.**
+

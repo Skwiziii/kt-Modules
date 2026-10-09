@@ -45,8 +45,8 @@
         { "name": "favs", "doc": "Показать список избранных треков", "usage": "" },
         { "name": "musicinfo", "doc": "Информация о модуле и сервисе", "usage": "" }
       ],
-      "size": 372160,
-      "sha256": "2ee9de520ca79e66ad558b921fbe912a5be31ee5e258dab410e17cf5adcbf358",
+      "size": 382432,
+      "sha256": "c305e01d62a76ac87468e8218717338709cabd5e17b072dda202bb09af9e558c",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/music_dl.so",
       "license": "Proprietary",
       "min_host_version": 2
@@ -77,3 +77,4 @@
     }
   ]
 }
+
