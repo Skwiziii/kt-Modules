@@ -1,7 +1,7 @@
 {
   "name": "kt-Modules",
-  "version": "1.0.2",
-  "updated": "2026-10-09-23:22",
+  "version": "1.0.3",
+  "updated": "2026-10-09-23:53",
   "modules": [
     {
       "id": "autosig",
@@ -32,7 +32,7 @@
       "display_name": "Music Downloader",
       "author": "@Diezdd",
       "description": "Музыкальный поисковик и загрузчик из SoundCloud с самовосстанавливающимся Client ID, пагинацией, логами разработки и списком «Избранное».",
-      "version": "1.2.6",
+      "version": "1.2.7",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
@@ -48,8 +48,8 @@
         { "name": "musiclog", "doc": "Просмотр логов разработки и отладки модуля", "usage": "[clear]" },
         { "name": "mdebug", "doc": "Алиас для .musiclog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 587592,
-      "sha256": "2480e9d5d7cd80df4fc49a59430a8f355a80cbd300343eb65b7857fbeb864b5f",
+      "size": 570744,
+      "sha256": "541df049e6e3d3d54af17890ace24d18bbd0610fe387b70ce4757a3ddb378af4",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/music_dl.so",
       "license": "Proprietary",
       "min_host_version": 12
@@ -60,7 +60,7 @@
       "display_name": "reSwaga (Now Playing)",
       "author": "@Diezdd",
       "description": "Интерактивная карточка играющего сейчас трека (Now Playing) для Last.fm, Spotify / Stats.fm с мультиссылками SongLink и логами разработки.",
-      "version": "1.2.6",
+      "version": "1.2.7",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
@@ -74,8 +74,8 @@
         { "name": "reswagalog", "doc": "Просмотр логов разработки и отладки Now Playing", "usage": "[clear]" },
         { "name": "npdebug", "doc": "Алиас для .reswagalog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 346016,
-      "sha256": "2a9f866f0a3050812ae31671df7c06b6cbdbbf74920b2c8f1bcf1b5344aed4c9",
+      "size": 317976,
+      "sha256": "3c6adbd443dc7ac91affe8a956056aa31cc4c8e67d0eca0ad5d8527a0979d42b",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/reswaga.so",
       "license": "Proprietary",
       "min_host_version": 12
