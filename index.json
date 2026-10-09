@@ -36,15 +36,20 @@
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
-        { "name": "tfinfo", "doc": "Диагностика чата, путей и кэша", "usage": "" },
-        { "name": "tfurl", "doc": "Отправить файл по прямой веб-ссылке", "usage": "<url>" },
-        { "name": "tfcache", "doc": "Создать и отправить файл из кэша", "usage": "" },
-        { "name": "tffile", "doc": "Отправить файл из кэша приложения (mp3 или jpg)", "usage": "[mp3|jpg|<путь>]" },
-        { "name": "tfrel", "doc": "Отправить файл по относительному пути", "usage": "" },
-        { "name": "tfmem", "doc": "Отправить файл напрямую из памяти", "usage": "" }
+        { "name": "find", "doc": "Поиск музыки по названию или исполнителю", "usage": "<запрос>" },
+        { "name": "fc", "doc": "Перелистывание страниц результатов поиска (next/prev)", "usage": "[next|prev]" },
+        { "name": "dlf", "doc": "Скачать трек по номеру из результатов поиска", "usage": "<номер>" },
+        { "name": "download", "doc": "Быстрый поиск и скачивание первого трека", "usage": "<запрос>" },
+        { "name": "msc", "doc": "Короткий алиас для команды .download", "usage": "<запрос>" },
+        { "name": "mfile", "doc": "Тест отправки локальных файлов из кэша приложения (mp3 или jpg)", "usage": "[mp3|jpg|<путь>]" },
+        { "name": "like", "doc": "Добавить трек из текущего поиска в избранное", "usage": "<номер>" },
+        { "name": "favs", "doc": "Показать список избранных треков", "usage": "" },
+        { "name": "musicinfo", "doc": "Информация о модуле и сервисе", "usage": "" },
+        { "name": "musiclog", "doc": "Просмотр логов разработки и отладки модуля", "usage": "[clear]" },
+        { "name": "mdebug", "doc": "Алиас для .musiclog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 13720,
-      "sha256": "6be6d8be2f2f4af10e27cf832f8ce46647cecc48b583a75eec6cb49cc8ed42e2",
+      "size": 570224,
+      "sha256": "e15cea5f62e497abc12dc1be01b50878906227621b1c4dfbcfbae0a53f33e436",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/music_dl.so",
       "license": "Proprietary",
       "min_host_version": 12
@@ -69,8 +74,8 @@
         { "name": "reswagalog", "doc": "Просмотр логов разработки и отладки Now Playing", "usage": "[clear]" },
         { "name": "npdebug", "doc": "Алиас для .reswagalog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 346384,
-      "sha256": "f247072a7d11023d126431d57ebd9c3cd43f4a18cafd2a301f13712d1501a15b",
+      "size": 336304,
+      "sha256": "ea148f586ec287f58ae8da49cb18c6f651fd9da1d9268025a23551798724f065",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/reswaga.so",
       "license": "Proprietary",
       "min_host_version": 12
