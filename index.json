@@ -20,8 +20,8 @@
         { "name": "sigpos", "doc": "Положение подписи (start, end, both)", "usage": "<start|end|both>" },
         { "name": "sigchat", "doc": "Индивидуальная подпись для конкретного чата", "usage": "[set|del|here] [id] [текст]" }
       ],
-      "size": 57880,
-      "sha256": "e0421f1059d78c52847641508fb00267d27d42b56ed59e3ce482c68884b0ffa3",
+      "size": 58928,
+      "sha256": "6970fc8f40c5fc13e6fd88490de6536ed063571bbe0e43b6a91a56d9786044b2",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/autosig.so",
       "license": "Proprietary",
       "min_host_version": 2
@@ -47,8 +47,8 @@
         { "name": "musiclog", "doc": "Просмотр логов разработки и отладки модуля", "usage": "[clear]" },
         { "name": "mdebug", "doc": "Алиас для .musiclog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 453064,
-      "sha256": "836487896af6e04d170b5bd2973c3ae1199aa5a936ef9cd9667a898784e1bfa4",
+      "size": 462200,
+      "sha256": "7a947d0fbc7130f8e9e1a1204a23733895bb69d5867a4f44bb5ead62b1c0e436",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/music_dl.so",
       "license": "Proprietary",
       "min_host_version": 2
@@ -73,8 +73,8 @@
         { "name": "reswagalog", "doc": "Просмотр логов разработки и отладки Now Playing", "usage": "[clear]" },
         { "name": "npdebug", "doc": "Алиас для .reswagalog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 281616,
-      "sha256": "0911514194145f85eaae5ece59d00dbb4e06ebd9b5eb134d2d697b972a1d4c81",
+      "size": 287208,
+      "sha256": "723767879e45dba5adf192c120b827f17a535e3d34f93b8316b9bed0ca301cd9",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/reswaga.so",
       "license": "Proprietary",
       "min_host_version": 2
