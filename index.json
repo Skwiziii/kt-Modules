@@ -20,8 +20,8 @@
         { "name": "sigpos", "doc": "Положение подписи (start, end, both)", "usage": "<start|end|both>" },
         { "name": "sigchat", "doc": "Индивидуальная подпись для конкретного чата", "usage": "[set|del|here] [id] [текст]" }
       ],
-      "size": 57848,
-      "sha256": "e3cd03f6d34ca392bf13f7efb3c938c9fda53b3b4c17a3eba9851d6017a50bbd",
+      "size": 57880,
+      "sha256": "e0421f1059d78c52847641508fb00267d27d42b56ed59e3ce482c68884b0ffa3",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/autosig.so",
       "license": "Proprietary",
       "min_host_version": 2
@@ -31,8 +31,8 @@
       "name": "music_dl",
       "display_name": "Music Downloader",
       "author": "@Diezdd",
-      "description": "Музыкальный поисковик и загрузчик из SoundCloud с самовосстанавливающимся Client ID, пагинацией и списком «Избранное».",
-      "version": "1.1.0",
+      "description": "Музыкальный поисковик и загрузчик из SoundCloud с самовосстанавливающимся Client ID, пагинацией, логами разработки и списком «Избранное».",
+      "version": "1.2.0",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
@@ -43,10 +43,12 @@
         { "name": "msc", "doc": "Короткий алиас для команды .download", "usage": "<запрос>" },
         { "name": "like", "doc": "Добавить трек из текущего поиска в избранное", "usage": "<номер>" },
         { "name": "favs", "doc": "Показать список избранных треков", "usage": "" },
-        { "name": "musicinfo", "doc": "Информация о модуле и сервисе", "usage": "" }
+        { "name": "musicinfo", "doc": "Информация о модуле и сервисе", "usage": "" },
+        { "name": "musiclog", "doc": "Просмотр логов разработки и отладки модуля", "usage": "[clear]" },
+        { "name": "mdebug", "doc": "Алиас для .musiclog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 399288,
-      "sha256": "f587edc52173b2b37001d51c753dcc99bb61544d93574528026921abe48df4e8",
+      "size": 430616,
+      "sha256": "70d231aeaff1f9fa9d97829b010e1916b185274989ebfd02deddb9ee7567c391",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/music_dl.so",
       "license": "Proprietary",
       "min_host_version": 2
@@ -56,8 +58,8 @@
       "name": "reswaga",
       "display_name": "reSwaga (Now Playing)",
       "author": "@Diezdd",
-      "description": "Интерактивная карточка играющего сейчас трека (Now Playing) для Last.fm, Spotify / Stats.fm и мультиссылками SongLink.",
-      "version": "1.1.0",
+      "description": "Интерактивная карточка играющего сейчас трека (Now Playing) для Last.fm, Spotify / Stats.fm с мультиссылками SongLink и логами разработки.",
+      "version": "1.2.0",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
@@ -67,14 +69,15 @@
         { "name": "setlastfm", "doc": "Привязать аккаунт Last.fm к юзерботу", "usage": "<username> [api_key]" },
         { "name": "setstatsfm", "doc": "Привязать аккаунт Stats.fm (Spotify)", "usage": "<username>" },
         { "name": "npplatform", "doc": "Выбрать источник музыки (lastfm, spotify)", "usage": "<lastfm|spotify>" },
-        { "name": "npinfo", "doc": "Справка и статус сервиса", "usage": "" }
+        { "name": "npinfo", "doc": "Справка и статус сервиса", "usage": "" },
+        { "name": "reswagalog", "doc": "Просмотр логов разработки и отладки Now Playing", "usage": "[clear]" },
+        { "name": "npdebug", "doc": "Алиас для .reswagalog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 235976,
-      "sha256": "e6eb138153e993141cb727fe576db6d30befed3f510761bfebc08a110cd8a22a",
+      "size": 260360,
+      "sha256": "0d3735a5562190455e3a166a93351d0bad6bd06a5e396793694c52074a9e638f",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/reswaga.so",
       "license": "Proprietary",
       "min_host_version": 2
     }
   ]
 }
-
