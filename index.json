@@ -48,8 +48,8 @@
         { "name": "musiclog", "doc": "Просмотр логов разработки и отладки модуля", "usage": "[clear]" },
         { "name": "mdebug", "doc": "Алиас для .musiclog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 576368,
-      "sha256": "ade7016723a4813869763903cafb980e7fb6b14c519e966f7607d5ec9c831a7e",
+      "size": 587896,
+      "sha256": "a5f28d52ab2d335c570be54fc22f42dd3ce91fd190ad3c92668386abd09e9c7e",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/music_dl.so",
       "license": "Proprietary",
       "min_host_version": 12
@@ -74,8 +74,8 @@
         { "name": "reswagalog", "doc": "Просмотр логов разработки и отладки Now Playing", "usage": "[clear]" },
         { "name": "npdebug", "doc": "Алиас для .reswagalog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 335088,
-      "sha256": "0bf9641cdd6f914a46bb9e64c8704a1b2656f81f03a9df94a06a584b2ff854f9",
+      "size": 346384,
+      "sha256": "f247072a7d11023d126431d57ebd9c3cd43f4a18cafd2a301f13712d1501a15b",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/reswaga.so",
       "license": "Proprietary",
       "min_host_version": 12
