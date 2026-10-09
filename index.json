@@ -32,7 +32,7 @@
       "display_name": "Music Downloader",
       "author": "@Diezdd",
       "description": "Музыкальный поисковик и загрузчик из SoundCloud с самовосстанавливающимся Client ID, пагинацией и списком «Избранное».",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
@@ -45,8 +45,8 @@
         { "name": "favs", "doc": "Показать список избранных треков", "usage": "" },
         { "name": "musicinfo", "doc": "Информация о модуле и сервисе", "usage": "" }
       ],
-      "size": 392936,
-      "sha256": "e44711f3769e49f03998c197431b13b9e01738f63e6a92708dde1de5fead49db",
+      "size": 399288,
+      "sha256": "f587edc52173b2b37001d51c753dcc99bb61544d93574528026921abe48df4e8",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/music_dl.so",
       "license": "Proprietary",
       "min_host_version": 2
@@ -57,7 +57,7 @@
       "display_name": "reSwaga (Now Playing)",
       "author": "@Diezdd",
       "description": "Интерактивная карточка играющего сейчас трека (Now Playing) для Last.fm, Spotify / Stats.fm и мультиссылками SongLink.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
@@ -69,8 +69,8 @@
         { "name": "npplatform", "doc": "Выбрать источник музыки (lastfm, spotify)", "usage": "<lastfm|spotify>" },
         { "name": "npinfo", "doc": "Справка и статус сервиса", "usage": "" }
       ],
-      "size": 216992,
-      "sha256": "6f8dd89888d926ae071a84db4bdecd5198f92c1321c65de7af428ef0159c8545",
+      "size": 235976,
+      "sha256": "e6eb138153e993141cb727fe576db6d30befed3f510761bfebc08a110cd8a22a",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/reswaga.so",
       "license": "Proprietary",
       "min_host_version": 2
