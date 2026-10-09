@@ -1,0 +1,79 @@
+{
+  "name": "kt-Modules",
+  "version": "1.0.0",
+  "updated": "2026-10-09",
+  "modules": [
+    {
+      "id": "autosig",
+      "name": "autosig",
+      "display_name": "Автоподпись (AutoSignature)",
+      "author": "@Diezdd",
+      "description": "Автоматическая подпись исходящих сообщений с поддержкой Markdown, ссылок, кастом-эмодзи и фильтрацией чатов.",
+      "version": "1.0.0",
+      "kind": "so",
+      "abi": "arm64-v8a",
+      "commands": [
+        { "name": "autosig", "doc": "Включить/выключить автоподпись или показать статус", "usage": "[on|off]" },
+        { "name": "sig", "doc": "Короткий алиас для команды .autosig", "usage": "[on|off]" },
+        { "name": "setsig", "doc": "Установить глобальный текст подписи", "usage": "<текст>" },
+        { "name": "getsig", "doc": "Показать текущие настройки и текст автоподписи", "usage": "" },
+        { "name": "sigpos", "doc": "Положение подписи (start, end, both)", "usage": "<start|end|both>" },
+        { "name": "sigchat", "doc": "Индивидуальная подпись для конкретного чата", "usage": "[set|del|here] [id] [текст]" }
+      ],
+      "size": 56600,
+      "sha256": "f257a63e59f53f86cfdb5f5377c126928d60becfb3145a5ec4cf2ebeb84c4bcc",
+      "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/autosig.so",
+      "license": "Proprietary",
+      "min_host_version": 2
+    },
+    {
+      "id": "music_dl",
+      "name": "music_dl",
+      "display_name": "Music Downloader",
+      "author": "@Diezdd",
+      "description": "Музыкальный поисковик и загрузчик из SoundCloud с самовосстанавливающимся Client ID, пагинацией и списком «Избранное».",
+      "version": "1.0.0",
+      "kind": "so",
+      "abi": "arm64-v8a",
+      "commands": [
+        { "name": "find", "doc": "Поиск музыки по названию или исполнителю", "usage": "<запрос>" },
+        { "name": "fc", "doc": "Перелистывание страниц результатов поиска (next/prev)", "usage": "[next|prev]" },
+        { "name": "dlf", "doc": "Скачать трек по номеру из результатов поиска", "usage": "<номер>" },
+        { "name": "download", "doc": "Быстрый поиск и скачивание первого трека", "usage": "<запрос>" },
+        { "name": "msc", "doc": "Короткий алиас для команды .download", "usage": "<запрос>" },
+        { "name": "like", "doc": "Добавить трек из текущего поиска в избранное", "usage": "<номер>" },
+        { "name": "favs", "doc": "Показать список избранных треков", "usage": "" },
+        { "name": "musicinfo", "doc": "Информация о модуле и сервисе", "usage": "" }
+      ],
+      "size": 372160,
+      "sha256": "2ee9de520ca79e66ad558b921fbe912a5be31ee5e258dab410e17cf5adcbf358",
+      "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/music_dl.so",
+      "license": "Proprietary",
+      "min_host_version": 2
+    },
+    {
+      "id": "reswaga",
+      "name": "reswaga",
+      "display_name": "reSwaga (Now Playing)",
+      "author": "@Diezdd",
+      "description": "Интерактивная карточка играющего сейчас трека (Now Playing) для Last.fm, Spotify / Stats.fm и мультиссылками SongLink.",
+      "version": "1.0.0",
+      "kind": "so",
+      "abi": "arm64-v8a",
+      "commands": [
+        { "name": "now", "doc": "Текстовая карточка текущего трека с таймлайном", "usage": "" },
+        { "name": "np", "doc": "Короткий алиас для команды .now", "usage": "" },
+        { "name": "npcard", "doc": "Отправить карточку текущего трека с обложкой альбома", "usage": "" },
+        { "name": "setlastfm", "doc": "Привязать аккаунт Last.fm к юзерботу", "usage": "<username> [api_key]" },
+        { "name": "setstatsfm", "doc": "Привязать аккаунт Stats.fm (Spotify)", "usage": "<username>" },
+        { "name": "npplatform", "doc": "Выбрать источник музыки (lastfm, spotify)", "usage": "<lastfm|spotify>" },
+        { "name": "npinfo", "doc": "Справка и статус сервиса", "usage": "" }
+      ],
+      "size": 212856,
+      "sha256": "223a82b503faa52e61216af61e55123d257936ec6f40a2db7b2ebb8dce774072",
+      "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/reswaga.so",
+      "license": "Proprietary",
+      "min_host_version": 2
+    }
+  ]
+}
