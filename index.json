@@ -97,8 +97,8 @@
         { "name": "tfrel", "doc": "Отправить файл по относительному пути", "usage": "" },
         { "name": "tfmem", "doc": "Отправить файл напрямую из памяти", "usage": "" }
       ],
-      "size": 13912,
-      "sha256": "122233c9dfd28dbaf58a56327600406eb0e5d27ef7fafb4dc51b9f4c845f831c",
+      "size": 14144,
+      "sha256": "99f0d626e667733ac33c46fd164eb46ea36c39be482a13913ac0d102fdc4120d",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/test_files.so",
       "license": "GPLv3",
       "min_host_version": 12
