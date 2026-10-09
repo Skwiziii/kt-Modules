@@ -48,8 +48,8 @@
         { "name": "musiclog", "doc": "Просмотр логов разработки и отладки модуля", "usage": "[clear]" },
         { "name": "mdebug", "doc": "Алиас для .musiclog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 617920,
-      "sha256": "67f7efbb7523ae09bbdd8168eda1b2154a21bf98db0648a6d00ca881a3a3ec21",
+      "size": 576584,
+      "sha256": "44c669ba4bc0fb924b9624168872521915a90cd2883f87c9b239e96cc02bb902",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/music_dl.so",
       "license": "Proprietary",
       "min_host_version": 12
@@ -74,8 +74,8 @@
         { "name": "reswagalog", "doc": "Просмотр логов разработки и отладки Now Playing", "usage": "[clear]" },
         { "name": "npdebug", "doc": "Алиас для .reswagalog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 377984,
-      "sha256": "2de96077ab8701eb41a50d6481b6e681931105772123831ed0c4475f31c4746c",
+      "size": 335184,
+      "sha256": "caaf0be03a6c1392fecf1df025945437732e3daaef89eae2d173fbc240743170",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/reswaga.so",
       "license": "Proprietary",
       "min_host_version": 12
@@ -97,8 +97,8 @@
         { "name": "tfrel", "doc": "Отправить файл по относительному пути", "usage": "" },
         { "name": "tfmem", "doc": "Отправить файл напрямую из памяти", "usage": "" }
       ],
-      "size": 13104,
-      "sha256": "8f9cc02d8e978cd391d7ee286d52c08823459c2621f0c124d318933a456467ac",
+      "size": 13912,
+      "sha256": "122233c9dfd28dbaf58a56327600406eb0e5d27ef7fafb4dc51b9f4c845f831c",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/test_files.so",
       "license": "GPLv3",
       "min_host_version": 12
