@@ -1,0 +1,9 @@
+# Object files and caches
+*.o
+*.obj
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+cmake-build-*/
+out/
