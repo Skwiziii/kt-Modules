@@ -75,8 +75,8 @@
         { "name": "reswagalog", "doc": "Просмотр логов разработки и отладки Now Playing", "usage": "[clear]" },
         { "name": "npdebug", "doc": "Алиас для .reswagalog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 553264,
-      "sha256": "f60f4f76bde5938b5976a3896f6111f5e37a5b42b707b047bda38d7a468bd531",
+      "size": 553392,
+      "sha256": "5285f1fe9dad53a43f54fcee9f6686797977acf0c2f14fc2757b2708b3d61996",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/reswaga.so",
       "license": "Proprietary",
       "min_host_version": 12
