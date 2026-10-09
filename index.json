@@ -20,8 +20,8 @@
         { "name": "sigpos", "doc": "Положение подписи (start, end, both)", "usage": "<start|end|both>" },
         { "name": "sigchat", "doc": "Индивидуальная подпись для конкретного чата", "usage": "[set|del|here] [id] [текст]" }
       ],
-      "size": 56600,
-      "sha256": "f257a63e59f53f86cfdb5f5377c126928d60becfb3145a5ec4cf2ebeb84c4bcc",
+      "size": 57848,
+      "sha256": "e3cd03f6d34ca392bf13f7efb3c938c9fda53b3b4c17a3eba9851d6017a50bbd",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/autosig.so",
       "license": "Proprietary",
       "min_host_version": 2
@@ -45,8 +45,8 @@
         { "name": "favs", "doc": "Показать список избранных треков", "usage": "" },
         { "name": "musicinfo", "doc": "Информация о модуле и сервисе", "usage": "" }
       ],
-      "size": 382432,
-      "sha256": "c305e01d62a76ac87468e8218717338709cabd5e17b072dda202bb09af9e558c",
+      "size": 392936,
+      "sha256": "e44711f3769e49f03998c197431b13b9e01738f63e6a92708dde1de5fead49db",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/music_dl.so",
       "license": "Proprietary",
       "min_host_version": 2
@@ -69,8 +69,8 @@
         { "name": "npplatform", "doc": "Выбрать источник музыки (lastfm, spotify)", "usage": "<lastfm|spotify>" },
         { "name": "npinfo", "doc": "Справка и статус сервиса", "usage": "" }
       ],
-      "size": 212856,
-      "sha256": "223a82b503faa52e61216af61e55123d257936ec6f40a2db7b2ebb8dce774072",
+      "size": 216992,
+      "sha256": "6f8dd89888d926ae071a84db4bdecd5198f92c1321c65de7af428ef0159c8545",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/reswaga.so",
       "license": "Proprietary",
       "min_host_version": 2
