@@ -32,7 +32,7 @@
       "display_name": "Music Downloader",
       "author": "@Diezdd",
       "description": "Музыкальный поисковик и загрузчик из SoundCloud с самовосстанавливающимся Client ID, пагинацией, логами разработки и списком «Избранное».",
-      "version": "1.2.4",
+      "version": "1.2.5",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
@@ -49,7 +49,7 @@
         { "name": "mdebug", "doc": "Алиас для .musiclog (логи отладки)", "usage": "[clear]" }
       ],
       "size": 569968,
-      "sha256": "12598b271386884b01fca0d6338b4eb7f9a30e0db8e177c84213d0d16f5be959",
+      "sha256": "4f29a57fa3866b4ebcb1fed2c0f1551313b6b61e5bc16100349290e6cbe533ca",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/music_dl.so",
       "license": "Proprietary",
       "min_host_version": 12
@@ -60,7 +60,7 @@
       "display_name": "reSwaga (Now Playing)",
       "author": "@Diezdd",
       "description": "Интерактивная карточка играющего сейчас трека (Now Playing) для Last.fm, Spotify / Stats.fm с мультиссылками SongLink и логами разработки.",
-      "version": "1.2.4",
+      "version": "1.2.5",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
@@ -74,8 +74,8 @@
         { "name": "reswagalog", "doc": "Просмотр логов разработки и отладки Now Playing", "usage": "[clear]" },
         { "name": "npdebug", "doc": "Алиас для .reswagalog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 336040,
-      "sha256": "79408d1b976081f14c1fcbb3f8d78306fbd8b0e53128304289d871fa67383221",
+      "size": 336056,
+      "sha256": "9ddad3fd15794c40da3d3dc5fe368be1084e6ae539d5edbce49db43128660bf6",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/reswaga.so",
       "license": "Proprietary",
       "min_host_version": 12
