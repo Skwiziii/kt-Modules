@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Android%20arm64--v8a-brightgreen?style=for-the-badge&logo=android" alt="Platform" />
   <img src="https://img.shields.io/badge/ABI-Native%20ABI%203-blue?style=for-the-badge" alt="ABI" />
-  <img src="https://img.shields.io/badge/Kotogram-v0.1.1+-orange?style=for-the-badge" alt="Kotogram Version" />
+  <img src="https://img.shields.io/badge/Kotogram-v0.2.0+-orange?style=for-the-badge" alt="Kotogram Version" />
   <img src="https://img.shields.io/badge/Type-Proprietary-red?style=for-the-badge" alt="Type" />
 </p>
 
