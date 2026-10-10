@@ -75,8 +75,34 @@
         { "name": "npinfo", "doc": "Справка и статус сервиса", "usage": "" }
       ],
       "size": 594176,
-      "sha256": "f6beae227566eaf80993925123bb64a8a42b7b980de9ce6e939271ec79f2d73f",
+      "sha256": "e5aec21d13a535552943c03e2f7cba2aec3401673eda7228a6cc8d3f9ddc3724",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/nowplay.so",
+      "license": "Proprietary",
+      "min_host_version": 12
+    },
+    {
+      "id": "reswaga",
+      "name": "reswaga",
+      "display_name": "reSwaga (Now Playing Card)",
+      "author": "@Diezdd",
+      "description": "Мультиплатформенная графическая карточка Now Playing (Яндекс Музыка, Spotify, VK, SoundCloud, Last.fm) с атмосферным размытым фоном, прогресс-баром и кастомными форматами (16:9, 4:3, 1:1, 21:9, 9:16).",
+      "version": "1.3.3",
+      "kind": "so",
+      "abi": "arm64-v8a",
+      "commands": [
+        { "name": "np", "doc": "Отправить графическую карточку Now Playing", "usage": "[16:9|4:3|1:1|21:9|9:16]" },
+        { "name": "npformat", "doc": "Выбрать формат карточки Now Playing по умолчанию", "usage": "<16:9|4:3|1:1|21:9|9:16>" },
+        { "name": "setyandex", "doc": "Привязать Яндекс Музыку (ya-token)", "usage": "<ya_token> [api_url]" },
+        { "name": "setvk", "doc": "Привязать VK Музыку (access_token)", "usage": "<vk_token>" },
+        { "name": "setsoundcloud", "doc": "Привязать SoundCloud (OAuth token)", "usage": "<oauth_token>" },
+        { "name": "setstatsfm", "doc": "Привязать аккаунт Stats.fm (Spotify)", "usage": "<username>" },
+        { "name": "setlastfm", "doc": "Привязать аккаунт Last.fm к юзерботу", "usage": "<username> [api_key]" },
+        { "name": "npplatform", "doc": "Выбрать источник музыки", "usage": "<auto|yandex|spotify|vk|soundcloud|lastfm>" },
+        { "name": "npinfo", "doc": "Справка и статус сервиса", "usage": "" }
+      ],
+      "size": 594176,
+      "sha256": "4ffedc04d41f7865536a7a5f0eda24fd36f2c5669d6e3f356764ee938fd8d9d4",
+      "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/reswaga.so",
       "license": "Proprietary",
       "min_host_version": 12
     },
