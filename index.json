@@ -55,12 +55,12 @@
       "min_host_version": 12
     },
     {
-      "id": "reswaga",
-      "name": "reswaga",
-      "display_name": "reSwaga (Now Playing Card)",
+      "id": "nowplay",
+      "name": "nowplay",
+      "display_name": "Now Play",
       "author": "@Diezdd",
       "description": "Мультиплатформенная графическая карточка Now Playing (Яндекс Музыка, Spotify, VK, SoundCloud, Last.fm) с атмосферным размытым фоном, прогресс-баром и кастомными форматами (16:9, 4:3, 1:1, 21:9, 9:16).",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
@@ -74,9 +74,9 @@
         { "name": "npplatform", "doc": "Выбрать источник музыки", "usage": "<auto|yandex|spotify|vk|soundcloud|lastfm>" },
         { "name": "npinfo", "doc": "Справка и статус сервиса", "usage": "" }
       ],
-      "size": 591200,
-      "sha256": "b173b5abad7edd6c436a78edbe1fca0f0e94f2c019398aea778fc90c90a6340e",
-      "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/reswaga.so",
+      "size": 595184,
+      "sha256": "93a9466ae9d13ce74c3cc876fed63fc58a9d9336ebb7968613f2b341fa888351",
+      "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/nowplay.so",
       "license": "Proprietary",
       "min_host_version": 12
     },
