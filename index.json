@@ -1,7 +1,7 @@
 {
   "name": "kt-Modules",
-  "version": "1.0.6",
-  "updated": "2026-10-12-01:08",
+  "version": "1.0.7",
+  "updated": "2026-10-12-01:15",
   "modules": [
     {
       "id": "autosig",
@@ -32,7 +32,7 @@
       "display_name": "Music Downloader",
       "author": "@Diezdd",
       "description": "Музыкальный поисковик и загрузчик из SoundCloud с самовосстанавливающимся Client ID, пагинацией, логами разработки и списком «Избранное».",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
@@ -42,14 +42,15 @@
         { "name": "download", "doc": "Быстрый поиск и скачивание первого трека", "usage": "<запрос>" },
         { "name": "msc", "doc": "Короткий алиас для команды .download", "usage": "<запрос>" },
         { "name": "mfile", "doc": "Тест отправки локальных файлов из кэша приложения (mp3 или jpg)", "usage": "[mp3|jpg|<путь>]" },
+        { "name": "musictag", "doc": "Установить или посмотреть юзернейм владельца для тегов в треках", "usage": "[@username]" },
         { "name": "like", "doc": "Добавить трек из текущего поиска в избранное", "usage": "<номер>" },
         { "name": "favs", "doc": "Показать список избранных треков", "usage": "" },
         { "name": "musicinfo", "doc": "Информация о модуле и сервисе", "usage": "" },
         { "name": "musiclog", "doc": "Просмотр логов разработки и отладки модуля", "usage": "[clear]" },
         { "name": "mdebug", "doc": "Алиас для .musiclog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 595520,
-      "sha256": "a08757410cdd24eb6edb77fe1548819ae6327819aaa93bc1295e49c10a312983",
+      "size": 596888,
+      "sha256": "b48e1ab037ab6071b76d988cfa13dab5df5d3e54607fad9c33dc35e738f9d9d1",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/music_dl.so",
       "license": "Proprietary",
       "min_host_version": 17
