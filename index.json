@@ -1,7 +1,7 @@
 {
   "name": "kt-Modules",
-  "version": "1.0.4",
-  "updated": "2026-10-10-00:16",
+  "version": "1.0.5",
+  "updated": "2026-10-12-00:39",
   "modules": [
     {
       "id": "autosig",
@@ -48,8 +48,8 @@
         { "name": "musiclog", "doc": "Просмотр логов разработки и отладки модуля", "usage": "[clear]" },
         { "name": "mdebug", "doc": "Алиас для .musiclog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 587160,
-      "sha256": "49aa5f4fcec4fc86dd9be337c704f13b6c30630a2c73271226e8de9ab0c8e604",
+      "size": 585224,
+      "sha256": "42358ea8e734f4712d02655dd3ec855d6546e91dc0833b62017e58e194a5a0ca",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/music_dl.so",
       "license": "Proprietary",
       "min_host_version": 17
@@ -74,8 +74,8 @@
         { "name": "npplatform", "doc": "Выбрать источник музыки", "usage": "<auto|yandex|spotify|vk|soundcloud|lastfm>" },
         { "name": "npinfo", "doc": "Справка и статус сервиса", "usage": "" }
       ],
-      "size": 559728,
-      "sha256": "65ef3cf38e701c0ef6a95160622283694f11c6313c40da35a3da61ef19fbf9c4",
+      "size": 601144,
+      "sha256": "ca44cbcca76c3a2fc59f5bf22cd84845fbfc563b267862b571d26509464cfc41",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/nowplay.so",
       "license": "Proprietary",
       "min_host_version": 17
@@ -100,8 +100,8 @@
         { "name": "npplatform", "doc": "Выбрать источник музыки", "usage": "<auto|yandex|spotify|vk|soundcloud|lastfm>" },
         { "name": "npinfo", "doc": "Справка и статус сервиса", "usage": "" }
       ],
-      "size": 559728,
-      "sha256": "3c859e285cb89471d6831827401f063f30d75aa59d62ac9d82122c57ff275bc9",
+      "size": 601144,
+      "sha256": "85e5cce9f842faae9e9aa8ff9b3063c4d81ccfe6f0d4a280115e2e2ac901ca1c",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/reswaga.so",
       "license": "Proprietary",
       "min_host_version": 17
