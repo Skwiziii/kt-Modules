@@ -1,7 +1,7 @@
 {
   "name": "kt-Modules",
-  "version": "1.0.5",
-  "updated": "2026-10-12-00:39",
+  "version": "1.0.6",
+  "updated": "2026-10-12-01:08",
   "modules": [
     {
       "id": "autosig",
@@ -32,7 +32,7 @@
       "display_name": "Music Downloader",
       "author": "@Diezdd",
       "description": "Музыкальный поисковик и загрузчик из SoundCloud с самовосстанавливающимся Client ID, пагинацией, логами разработки и списком «Избранное».",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
@@ -48,8 +48,8 @@
         { "name": "musiclog", "doc": "Просмотр логов разработки и отладки модуля", "usage": "[clear]" },
         { "name": "mdebug", "doc": "Алиас для .musiclog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 584384,
-      "sha256": "e48de64bbcdb9eace1daf76bd1508e1ed43dd8a399f95a43f81490a4d744ef9e",
+      "size": 595520,
+      "sha256": "a08757410cdd24eb6edb77fe1548819ae6327819aaa93bc1295e49c10a312983",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/music_dl.so",
       "license": "Proprietary",
       "min_host_version": 17
@@ -105,29 +105,6 @@
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/reswaga.so",
       "license": "Proprietary",
       "min_host_version": 17
-    },
-    {
-      "id": "test_files",
-      "name": "test_files",
-      "display_name": "Test Files (Диагностика отправки)",
-      "author": "Kotogram Core",
-      "description": "Тестовый модуль для проверки отправки файлов в Kotogram ABI 3 (кэш, ссылки, оперативная память).",
-      "version": "1.0.0",
-      "kind": "so",
-      "abi": "arm64-v8a",
-      "commands": [
-        { "name": "tfinfo", "doc": "Диагностика чата, путей и кэша", "usage": "" },
-        { "name": "tfurl", "doc": "Отправить файл по прямой веб-ссылке", "usage": "<url>" },
-        { "name": "tfcache", "doc": "Создать и отправить файл из кэша", "usage": "" },
-        { "name": "tffile", "doc": "Отправить файл из кэша приложения (mp3 или jpg)", "usage": "[mp3|jpg|<путь>]" },
-        { "name": "tfrel", "doc": "Отправить файл по относительному пути", "usage": "" },
-        { "name": "tfmem", "doc": "Отправить файл напрямую из памяти", "usage": "" }
-      ],
-      "size": 13720,
-      "sha256": "295be1d45d432ff28617ea520ae2784ecfaa302dfa43bb29d65f4d3c38a505df",
-      "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/test_files.so",
-      "license": "GPLv3",
-      "min_host_version": 12
     }
   ]
 }
