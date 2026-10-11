@@ -1,7 +1,7 @@
 {
   "name": "kt-Modules",
-  "version": "1.0.7",
-  "updated": "2026-10-12-01:15",
+  "version": "1.0.8",
+  "updated": "2026-10-12-01:33",
   "modules": [
     {
       "id": "autosig",
@@ -82,30 +82,26 @@
       "min_host_version": 17
     },
     {
-      "id": "reswaga",
-      "name": "reswaga",
-      "display_name": "reSwaga (Now Playing Card)",
+      "id": "bridge_test",
+      "name": "bridge_test",
+      "display_name": "Bridge Test (Тест моста и JNI)",
       "author": "@Diezdd",
-      "description": "Мультиплатформенная графическая карточка Now Playing (Яндекс Музыка, Spotify, VK, SoundCloud, Last.fm) с атмосферным размытым фоном, прогресс-баром и кастомными форматами (16:9, 4:3, 1:1, 21:9, 9:16).",
-      "version": "1.4.0",
+      "description": "Диагностический модуль для проверки прямого взаимодействия нативного C++ .so с Java/Android мостом Kotogram и Telegram API.",
+      "version": "1.0.0",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
-        { "name": "np", "doc": "Отправить графическую карточку Now Playing", "usage": "[16:9|4:3|1:1|21:9|9:16]" },
-        { "name": "npformat", "doc": "Выбрать формат карточки Now Playing по умолчанию", "usage": "<16:9|4:3|1:1|21:9|9:16>" },
-        { "name": "setyandex", "doc": "Привязать Яндекс Музыку (ya-token)", "usage": "<ya_token> [api_url]" },
-        { "name": "setvk", "doc": "Привязать VK Музыку (access_token)", "usage": "<vk_token>" },
-        { "name": "setsoundcloud", "doc": "Привязать SoundCloud (OAuth token)", "usage": "<oauth_token>" },
-        { "name": "setstatsfm", "doc": "Привязать аккаунт Stats.fm (Spotify)", "usage": "<username>" },
-        { "name": "setlastfm", "doc": "Привязать аккаунт Last.fm к юзерботу", "usage": "<username> [api_key]" },
-        { "name": "npplatform", "doc": "Выбрать источник музыки", "usage": "<auto|yandex|spotify|vk|soundcloud|lastfm>" },
-        { "name": "npinfo", "doc": "Справка и статус сервиса", "usage": "" }
+        { "name": "bdiag", "doc": "Полная диагностика доступа к Java/JNI мосту и классам Telegram", "usage": "" },
+        { "name": "bridgediag", "doc": "Алиас для команды .bdiag", "usage": "" },
+        { "name": "bridgebio", "doc": "Тест прямого вызова обновления био через Telegram Java API", "usage": "<новый текст>" },
+        { "name": "bridgeloc", "doc": "Тест прямого вызова обновления бизнес-адреса через Telegram Java API", "usage": "<новый адрес>" },
+        { "name": "binfo", "doc": "Системная информация о процессе и окружении", "usage": "" }
       ],
-      "size": 601144,
-      "sha256": "85e5cce9f842faae9e9aa8ff9b3063c4d81ccfe6f0d4a280115e2e2ac901ca1c",
-      "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/reswaga.so",
+      "size": 63040,
+      "sha256": "67880670f8ebfb7e8e5a2ca91420dc4fe5890df04b87fcbc1615a8165cfaead1",
+      "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/bridge_test.so",
       "license": "Proprietary",
-      "min_host_version": 17
+      "min_host_version": 12
     }
   ]
 }
