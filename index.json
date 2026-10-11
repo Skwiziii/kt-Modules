@@ -1,7 +1,7 @@
 {
   "name": "kt-Modules",
-  "version": "1.1.1",
-  "updated": "2026-10-12-01:57",
+  "version": "1.1.2",
+  "updated": "2026-10-12-02:03",
   "modules": [
     {
       "id": "autosig",
@@ -87,7 +87,7 @@
       "display_name": "Bridge Test (Тест моста и JNI)",
       "author": "@Diezdd",
       "description": "Диагностический модуль для проверки прямого взаимодействия нативного C++ .so с Java/Android мостом Kotogram и Telegram API.",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
@@ -107,8 +107,8 @@
         { "name": "bridgeloc", "doc": "Тест прямого вызова обновления бизнес-адреса через Telegram Java API", "usage": "<новый адрес>" },
         { "name": "binfo", "doc": "Системная информация о процессе и окружении", "usage": "" }
       ],
-      "size": 114760,
-      "sha256": "c7748adf800da319d94e7645e00161d10b57d606b3e9fec1467d5e38eec5f0ea",
+      "size": 115736,
+      "sha256": "e5cbe953c4afb721295917ef603b0966f0264884a7d13a200243a3e175109c8a",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/bridge_test.so",
       "license": "Proprietary",
       "min_host_version": 12
