@@ -1,7 +1,7 @@
 {
   "name": "kt-Modules",
-  "version": "1.1.3",
-  "updated": "2026-10-12-02:08",
+  "version": "1.1.4",
+  "updated": "2026-10-12-02:19",
   "modules": [
     {
       "id": "autosig",
@@ -87,7 +87,7 @@
       "display_name": "Bridge Test (Тест моста и JNI)",
       "author": "@Diezdd",
       "description": "Диагностический модуль для проверки прямого взаимодействия нативного C++ .so с Java/Android мостом Kotogram и Telegram API.",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
@@ -98,6 +98,7 @@
         { "name": "bengine", "doc": "Поиск функций движка kote:: без TL-генератора", "usage": "[фильтр]" },
         { "name": "bmybio", "doc": "Проверка чтения реального био Telegram через api->my_bio", "usage": "" },
         { "name": "bctx", "doc": "Инспекция контекста koto_ctx, vtable и символов API хоста", "usage": "" },
+        { "name": "bclient", "doc": "Детальный анализ объекта сессии ctx[0] и вызовов invoke_raw", "usage": "" },
         { "name": "bdis", "doc": "Дизассемблер ARM64 функций хоста (ping, bio, send, resolve)", "usage": "[ping|bio|send]" },
         { "name": "bbridge", "doc": "Инспекция JNI методов NativeBridge в libkotocore.so", "usage": "" },
         { "name": "bprofile", "doc": "Инспекция встроенного модуля libkotomod_profile.so и команд", "usage": "" },
@@ -109,8 +110,8 @@
         { "name": "bridgeloc", "doc": "Тест прямого вызова обновления бизнес-адреса через Telegram Java API", "usage": "<новый адрес>" },
         { "name": "binfo", "doc": "Системная информация о процессе и окружении", "usage": "" }
       ],
-      "size": 120592,
-      "sha256": "0bcb4acd2a0c237fbfebc1ec55b6ce67ba5abb566ad8ec8f304e717fbd7a049d",
+      "size": 126032,
+      "sha256": "863f827ecabe18e73ffd696b9466a23892cde2cf8a5d58a07db9c4bf5e86081e",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/bridge_test.so",
       "license": "Proprietary",
       "min_host_version": 12
