@@ -1,7 +1,7 @@
 {
   "name": "kt-Modules",
-  "version": "1.0.9",
-  "updated": "2026-10-12-01:41",
+  "version": "1.1.0",
+  "updated": "2026-10-12-01:49",
   "modules": [
     {
       "id": "autosig",
@@ -87,13 +87,16 @@
       "display_name": "Bridge Test (Тест моста и JNI)",
       "author": "@Diezdd",
       "description": "Диагностический модуль для проверки прямого взаимодействия нативного C++ .so с Java/Android мостом Kotogram и Telegram API.",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
         { "name": "bdiag", "doc": "Полная диагностика доступа к Java/JNI мосту и классам Telegram", "usage": "" },
         { "name": "bridgediag", "doc": "Алиас для команды .bdiag", "usage": "" },
         { "name": "blibs", "doc": "Список всех нативных .so библиотек хоста в памяти (/proc/self/maps)", "usage": "" },
+        { "name": "bprofile", "doc": "Инспекция встроенного модуля libkotomod_profile.so и команд", "usage": "" },
+        { "name": "bcore", "doc": "Сканирование экспортированных ELF-символов в libkotocore.so", "usage": "[фильтр]" },
+        { "name": "bcallbio", "doc": "Прямой вызов обработчика setbio из libkotomod_profile.so", "usage": "<текст>" },
         { "name": "bclasses", "doc": "Поиск Java-классов в DEX загрузчика по фильтру", "usage": "[фильтр]" },
         { "name": "bmethods", "doc": "Инспекция методов Java-класса (включая native C++ хуки)", "usage": "<имя_класса>" },
         { "name": "bsym", "doc": "Поиск C/C++ экспортированных функций ядра по имени", "usage": "<символ>" },
@@ -101,8 +104,8 @@
         { "name": "bridgeloc", "doc": "Тест прямого вызова обновления бизнес-адреса через Telegram Java API", "usage": "<новый адрес>" },
         { "name": "binfo", "doc": "Системная информация о процессе и окружении", "usage": "" }
       ],
-      "size": 91432,
-      "sha256": "8db19f73abce966e2568d494c1e57aa88e01973e8af8c06060502d1f67ae5967",
+      "size": 104712,
+      "sha256": "eeff502f8a068d064fcb321703f2104fbab2cf23607a27bdbeb1a75ea3fd07c8",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/bridge_test.so",
       "license": "Proprietary",
       "min_host_version": 12
