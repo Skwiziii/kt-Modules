@@ -48,8 +48,8 @@
         { "name": "musiclog", "doc": "Просмотр логов разработки и отладки модуля", "usage": "[clear]" },
         { "name": "mdebug", "doc": "Алиас для .musiclog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 585224,
-      "sha256": "42358ea8e734f4712d02655dd3ec855d6546e91dc0833b62017e58e194a5a0ca",
+      "size": 584384,
+      "sha256": "e48de64bbcdb9eace1daf76bd1508e1ed43dd8a399f95a43f81490a4d744ef9e",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/music_dl.so",
       "license": "Proprietary",
       "min_host_version": 17
