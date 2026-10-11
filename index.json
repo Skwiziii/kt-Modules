@@ -48,8 +48,8 @@
         { "name": "musiclog", "doc": "Просмотр логов разработки и отладки модуля", "usage": "[clear]" },
         { "name": "mdebug", "doc": "Алиас для .musiclog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 587320,
-      "sha256": "b369143627ea30c088242d470b2bf86210c0c1c2008e001a34b94b6e07d6ab6c",
+      "size": 587304,
+      "sha256": "f64b157d3d3f15f3bc9adfeacff14a9353c9b9c848fd63210d8fff4e1189065b",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/music_dl.so",
       "license": "Proprietary",
       "min_host_version": 17
@@ -74,8 +74,8 @@
         { "name": "npplatform", "doc": "Выбрать источник музыки", "usage": "<auto|yandex|spotify|vk|soundcloud|lastfm>" },
         { "name": "npinfo", "doc": "Справка и статус сервиса", "usage": "" }
       ],
-      "size": 599400,
-      "sha256": "225fa21da007129364ed7661a757f7ff1dc278325e6318e1685bc37c36edf77d",
+      "size": 600776,
+      "sha256": "cbd8830209516a8099ee2fe012f2c45de29753c3d5fa5c0645f126c659675114",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/nowplay.so",
       "license": "Proprietary",
       "min_host_version": 17
@@ -100,8 +100,8 @@
         { "name": "npplatform", "doc": "Выбрать источник музыки", "usage": "<auto|yandex|spotify|vk|soundcloud|lastfm>" },
         { "name": "npinfo", "doc": "Справка и статус сервиса", "usage": "" }
       ],
-      "size": 599400,
-      "sha256": "4900a8fa40deae7015f423b72adb2ccba15d69dba09741727699a1f699bb9d63",
+      "size": 600776,
+      "sha256": "8b13c8f02125bc378c39b934ef5b23096f74a1e6fb24c8f1f9038ac1cfa45d9f",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/reswaga.so",
       "license": "Proprietary",
       "min_host_version": 17
