@@ -1,7 +1,7 @@
 {
   "name": "kt-Modules",
-  "version": "1.1.9",
-  "updated": "2026-10-12-03:15",
+  "version": "1.2.0",
+  "updated": "2026-10-12-13:51",
   "modules": [
     {
       "id": "autosig",
@@ -31,8 +31,8 @@
       "name": "music_dl",
       "display_name": "Music Downloader",
       "author": "@Diezdd",
-      "description": "Музыкальный поисковик и загрузчик из SoundCloud с самовосстанавливающимся Client ID, пагинацией, логами разработки и списком «Избранное».",
-      "version": "1.5.0",
+      "description": "Музыкальный поисковик и загрузчик из SoundCloud с самовосстанавливающимся Client ID, фильтрацией DRM-треков SoundCloud Go+, пагинацией и списком «Избранное».",
+      "version": "1.5.1",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
@@ -49,8 +49,8 @@
         { "name": "musiclog", "doc": "Просмотр логов разработки и отладки модуля", "usage": "[clear]" },
         { "name": "mdebug", "doc": "Алиас для .musiclog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 596888,
-      "sha256": "b48e1ab037ab6071b76d988cfa13dab5df5d3e54607fad9c33dc35e738f9d9d1",
+      "size": 603712,
+      "sha256": "fc52fd18211893fd27ac95f81eefae85e7046e6796d1a0352f63e0305886456d",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/music_dl.so",
       "license": "Proprietary",
       "min_host_version": 17
