@@ -1,7 +1,7 @@
 {
   "name": "kt-Modules",
-  "version": "1.1.8",
-  "updated": "2026-10-12-03:10",
+  "version": "1.1.9",
+  "updated": "2026-10-12-03:15",
   "modules": [
     {
       "id": "autosig",
@@ -61,7 +61,7 @@
       "display_name": "Now Play",
       "author": "@Diezdd",
       "description": "Мультиплатформенная графическая карточка Now Playing (Яндекс Музыка, Spotify, VK, SoundCloud, Last.fm) с атмосферным размытым фоном, прогресс-баром и живой фоновой трансляцией трека в Bio профиля Telegram.",
-      "version": "1.5.0",
+      "version": "1.5.1",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
@@ -76,8 +76,8 @@
         { "name": "npplatform", "doc": "Выбрать источник музыки", "usage": "<auto|yandex|spotify|vk|soundcloud|lastfm>" },
         { "name": "npinfo", "doc": "Справка и статус сервиса", "usage": "" }
       ],
-      "size": 630200,
-      "sha256": "54c06ba12f5790ef2b1c004103f1f092b529a4a60e56dab30c8b6adb0810eae3",
+      "size": 632048,
+      "sha256": "0016a4291b2f2f931ab1b3f653917b9722124d99c709506ab83e60cc0bf1466f",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/nowplay.so",
       "license": "Proprietary",
       "min_host_version": 17
