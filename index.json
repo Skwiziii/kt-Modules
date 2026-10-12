@@ -124,7 +124,7 @@
       "display_name": "Love Canvas (Плавающий оверлей Dear ImGui)",
       "author": "@Diezdd",
       "description": "Плавающее прозрачное окно Dear ImGui в левом верхнем углу дисплея (<= 1/4 экрана). Пропускает все нажатия (pass-through). При отправке белого холста с рисунками от второй половинки автоматически удаляет белый фон (Chroma Key) и отображает чистый арт поверх экрана.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
@@ -139,8 +139,8 @@
         { "name": "canvas_size", "doc": "Переключить размер окна в левом верхнем углу (1, 2 или 3, строго <= 1/4 экрана)", "usage": "<1|2|3>" },
         { "name": "canvas_perm", "doc": "Проверить и открыть настройки прав оверлея в Android", "usage": "" }
       ],
-      "size": 1180528,
-      "sha256": "47704e7103876b4a485e882189568674f436cb5db66bdc4f0bdc668ed4136b05",
+      "size": 1192056,
+      "sha256": "2b885d52d9d1d5a21351b87a74abcab19faa79acd7f89c853e71075407eb8579",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/love_canvas.so",
       "license": "Proprietary",
       "min_host_version": 17
