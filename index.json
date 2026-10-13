@@ -89,11 +89,12 @@
       "display_name": "Mimic (Клонирование и менеджер профилей)",
       "author": "@Diezdd",
       "description": "Клонирование профилей пользователей Telegram по reply/@username (имя, био, аватарка), слоты для быстрого переключения личностей, авто-бэкап оригинала, режим невидимки (Ghost) и таймер авто-возврата.",
-      "version": "1.0.2",
+      "version": "1.1.0",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
         { "name": "clone", "doc": "Клонировать профиль пользователя по reply или @username", "usage": "[время] [@user]" },
+        { "name": "mimic", "doc": "Клонировать профиль пользователя (алиас .clone)", "usage": "[время] [@user]" },
         { "name": "profiles", "doc": "Список профилей и интерактивное меню переключения", "usage": "" },
         { "name": "loadprofile", "doc": "Загрузить и применить профиль из слота", "usage": "<слот> [время]" },
         { "name": "saveprofile", "doc": "Сохранить текущее имя и био в указанный слот", "usage": "<слот>" },
@@ -105,8 +106,8 @@
         { "name": "setavatar", "doc": "Установить аватарку профиля ответом на фото или по ссылке", "usage": "[url_фото]" },
         { "name": "mimicinfo", "doc": "Справка и статус модуля Mimic", "usage": "" }
       ],
-      "size": 147992,
-      "sha256": "fccfac734ebd7c5a270f4f99826257f201064a61ea33d5cd01ae81303009222a",
+      "size": 300776,
+      "sha256": "99ba49365df84c47b7e42511c4e35394732b5b3542d65328497da74bbe2f94d3",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/mimic.so",
       "license": "Proprietary",
       "min_host_version": 26
