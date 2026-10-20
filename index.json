@@ -1,7 +1,7 @@
 {
   "name": "kt-Modules",
-  "version": "1.3.0",
-  "updated": "2026-10-13-14:35",
+  "version": "1.4.0",
+  "updated": "2026-10-21-01:06",
   "modules": [
     {
       "id": "autosig",
@@ -136,6 +136,25 @@
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/love_canvas.so",
       "license": "Proprietary",
       "min_host_version": 24
+    },
+    {
+      "id": "poster",
+      "name": "poster",
+      "display_name": "Poster (Автопостинг 9:16 обоев)",
+      "author": "@Diezdd",
+      "description": "Автоматическая рассылка вертикальных 9:16 обоев в чаты и каналы через Wallhaven API. Поддержка слотов-конфигураций, гибкого расписания (интервалы, дни недели, точное время), каталога тем, плейсхолдеров и дедупликации.",
+      "version": "1.0.0",
+      "kind": "so",
+      "abi": "arm64-v8a",
+      "commands": [
+        { "name": "poster", "doc": "Панель управления автопостингом, конфигами и расписанием", "usage": "[cmd] [параметры]" },
+        { "name": "wall", "doc": "Короткий алиас команды .poster", "usage": "[cmd] [параметры]" }
+      ],
+      "size": 391128,
+      "sha256": "530c2f82992ea6b063b33ec55c89e4293c6fc34537b63479893984234430da5f",
+      "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/poster.so",
+      "license": "Proprietary",
+      "min_host_version": 26
     }
   ]
 }
