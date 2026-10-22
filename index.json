@@ -32,7 +32,7 @@
       "display_name": "Music Downloader",
       "author": "@Diezdd",
       "description": "Музыкальный поисковик и загрузчик из SoundCloud с самовосстанавливающимся Client ID, фильтрацией DRM-треков SoundCloud Go+, пагинацией и списком «Избранное».",
-      "version": "1.6.6",
+      "version": "1.6.7",
       "kind": "so",
       "abi": "arm64-v8a",
       "commands": [
@@ -49,8 +49,8 @@
         { "name": "musiclog", "doc": "Просмотр логов разработки и отладки модуля", "usage": "[clear]" },
         { "name": "mdebug", "doc": "Алиас для .musiclog (логи отладки)", "usage": "[clear]" }
       ],
-      "size": 599472,
-      "sha256": "05273324f0a24f26741036803ce2b5863e45bd1c6a459060a6858ee807644d41",
+      "size": 600008,
+      "sha256": "83b36008caca7d12177f950008d1f9dca8083a7c2b4dd0ae9f6563e08890d518",
       "url": "https://raw.githubusercontent.com/Skwiziii/kt-Modules/main/modules/music_dl.so",
       "license": "Proprietary",
       "min_host_version": 24
